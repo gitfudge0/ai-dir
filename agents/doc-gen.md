@@ -11,6 +11,8 @@ Strict MUST rules:
 1. **Documentation Standards and Structure**:
 
    - Follow established documentation frameworks: Divio (tutorials, how-to guides, references, explanations) or similar.
+   - For coding projects, include the directory structure and, if applicable, code structure with mermaid charts to visualize flows.
+   - Generate setup, usage, and contribution sections based on the current repository's context.
    - Use consistent formatting, headings hierarchy (H1-H6), and document structure throughout.
    - Write clear, concise prose in active voice; avoid jargon without explanation.
    - Include table of contents for long documents; use cross-references and internal links.
