@@ -1,0 +1,95 @@
+{
+  "agents": {
+    "agent-fixer": {
+      "name": "Agent Fixer",
+      "description": "Agent for fixing and improving other agents",
+      "mode": "subagent",
+      "opencode_model": "github-copilot/claude-sonnet-4-20250514",
+      "tools": ["Read", "Write", "Edit", "Grep", "Glob"]
+    },
+    "code-review": {
+      "name": "Code Review Agent", 
+      "description": "Code review agent specializing in comprehensive analysis of branch commits and changes",
+      "mode": "subagent", 
+      "opencode_model": "github-copilot/gpt-4.1",
+      "tools": ["Read", "Bash", "Grep", "Glob"]
+    },
+    "doc-gen": {
+      "name": "Documentation Generator",
+      "description": "Documentation generation agent for creating comprehensive project docs",
+      "mode": "subagent",
+      "opencode_model": "github-copilot/claude-sonnet-4-20250514", 
+      "tools": ["Read", "Write", "Edit", "Grep", "Glob", "Bash"]
+    },
+    "frontend-dev": {
+      "name": "Frontend Development Agent",
+      "description": "Frontend development agent specializing in accessible, performant web experiences", 
+      "mode": "subagent",
+      "opencode_model": "github-copilot/claude-sonnet-4-20250514",
+      "tools": ["Read", "Write", "Edit", "Bash", "Grep", "Glob", "WebFetch"]
+    },
+    "go-dev": {
+      "name": "Go Development Agent",
+      "description": "Go development agent specializing in idiomatic Go code and best practices",
+      "mode": "subagent", 
+      "opencode_model": "github-copilot/claude-sonnet-4-20250514",
+      "tools": ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
+    },
+    "java-dev": {
+      "name": "Java Development Agent",
+      "description": "Java development agent specializing in enterprise Java applications",
+      "mode": "subagent",
+      "opencode_model": "github-copilot/claude-sonnet-4-20250514", 
+      "tools": ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
+    },
+    "python-dev": {
+      "name": "Python Development Agent",
+      "description": "Python development agent specializing in clean, Pythonic code",
+      "mode": "subagent",
+      "opencode_model": "github-copilot/claude-sonnet-4-20250514",
+      "tools": ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
+    },
+    "research": {
+      "name": "Research Agent", 
+      "description": "use this agent to perform research on a topic or task",
+      "mode": "primary",
+      "opencode_model": "github-copilot/gemini-2.5-pro",
+      "tools": ["WebSearch", "WebFetch", "Read", "Write"]
+    },
+    "ruby-dev": {
+      "name": "Ruby Development Agent",
+      "description": "Ruby development agent specializing in Rails and Ruby best practices", 
+      "mode": "subagent",
+      "opencode_model": "github-copilot/claude-sonnet-4-20250514",
+      "tools": ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
+    },
+    "security-audit": {
+      "name": "Security Audit Agent",
+      "description": "Security audit agent for identifying vulnerabilities and security issues",
+      "mode": "subagent",
+      "opencode_model": "github-copilot/claude-sonnet-4-20250514",
+      "tools": ["Read", "Bash", "Grep", "Glob", "WebSearch"]
+    },
+    "sonny": {
+      "name": "Sonny Agent",
+      "description": "General purpose development assistant", 
+      "mode": "primary",
+      "opencode_model": "github-copilot/claude-sonnet-4-20250514",
+      "tools": ["Read", "Write", "Edit", "Bash", "Grep", "Glob", "WebSearch", "WebFetch"]
+    },
+    "spec-gen": {
+      "name": "Specification Generator",
+      "description": "Specification generation agent for creating technical specifications",
+      "mode": "subagent", 
+      "opencode_model": "github-copilot/claude-sonnet-4-20250514",
+      "tools": ["Read", "Write", "Edit", "Grep", "Glob", "WebSearch"]
+    },
+    "tdd-gen": {
+      "name": "TDD Generator",
+      "description": "Test-driven development agent for generating tests and test-first code",
+      "mode": "subagent",
+      "opencode_model": "github-copilot/claude-sonnet-4-20250514", 
+      "tools": ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
+    }
+  }
+}

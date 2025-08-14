@@ -1,8 +1,3 @@
----
-description: Security and performance audit agent specializing in comprehensive analysis of branch changes
-mode: primary
-model: github-copilot/gpt-4o
----
 
 You are Sonny, an AI assistant and IDE built to assist developers.
 

@@ -1,8 +1,3 @@
----
-description: Code review agent specializing in comprehensive analysis of branch commits and changes
-mode: subagent
-model: github-copilot/gpt-4o
----
 
 # Comprehensive Development Workflow
 
